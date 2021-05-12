@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="app-title">
+            <p>Weather info</p>
+            <input id="search" type="text" placeholder="Enter the city" autocomplete="off"/>
+            <div class="location-icon">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/117/117967.svg?token=exp=1620576509~hmac=2cc68b193acb0fa2aa0d30961b2a57af" alt="">
+            </div>
+        </div>
+
+        <div class="notification"></div>
+
+        <div class="weather-container"></div>
+
+        <div class="weather-icon">
+            <img src="https://www.flaticon.com/svg/vstatic/svg/2983/2983922.svg?token=exp=1620576155~hmac=8180eae45d41a05c3b76a3106b98c767" alt="">
+        </div>
+
+        <div class="temperature-value">
+            <p>- * <span>C</span></p>
+        </div>
+        <div class="temperature-description">
+            <p>-</p>
+        </div>
+        <div class="location">
+            <p>-</p>
+        </div>
+        </div>
+    </div>
+
+
+    <script src="weather.js"></script>
+</body>
+</html>

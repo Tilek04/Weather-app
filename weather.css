@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+body{
+    background-image: url('https://w-dog.ru/wallpapers/9/3/314460257910783.jpg');
+    background-color: steelblue;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 50%;
+    background-color: #fff;
+    align-self: center;
+    display: block;
+    margin: 100px auto; 
+    border-radius: 10px;
+    padding-bottom: 50px;
+    box-shadow: 5px 5px 50px 5px #000000
+    ; 
+}
+.app-title{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #333;
+}
+#search{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 40%;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 3px solid steelblue; 
+}
+.notification{
+    background-color: #fff;
+    display: none;
+}
+.notification p{
+    color: maroon;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+/* .weather-container{
+    width: 100%;
+    height: 260px;
+    background-color: #fff;
+    margin-top: 20px;
+} */
+.weather-icon{
+  width: 100%;
+  height: 128;
+}
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+.location-icon{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+.location-icon img{
+    display: block;
+    width: 32px;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 5px;
+    border: steelblue solid 2px;
+    border-radius: 10px;
+    color: steelblue; 
+}
+.temperature-value{
+    width: 100%;
+    height: 60px;
+}
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+}
+.temperature-value span{
+    color: #292929;
+    font-size: 0.5em;
+}
+.temperature-description p{
+padding: 8px;
+margin: 0;
+color: #293251;
+text-align: center;
+font-size: 1.2em;
+}
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.9em;
+}
+div.relative{
+    position: absolute;
+    top: 600px;
+    right: 120px;
+}
